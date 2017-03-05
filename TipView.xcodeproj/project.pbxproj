@@ -14,6 +14,7 @@
 		C6ED0A211E6B71860077A81F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6ED0A1F1E6B71860077A81F /* LaunchScreen.storyboard */; };
 		C6ED0A2C1E6B71860077A81F /* TipViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6ED0A2B1E6B71860077A81F /* TipViewTests.swift */; };
 		C6ED0A371E6B71860077A81F /* TipViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6ED0A361E6B71860077A81F /* TipViewUITests.swift */; };
+		C6ED0A471E6B88500077A81F /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C6ED0A461E6B88500077A81F /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C6ED0A321E6B71860077A81F /* TipViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6ED0A361E6B71860077A81F /* TipViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipViewUITests.swift; sourceTree = "<group>"; };
 		C6ED0A381E6B71860077A81F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6ED0A461E6B88500077A81F /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = TipView/Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		C6ED0A0A1E6B71850077A81F = {
 			isa = PBXGroup;
 			children = (
+				C6ED0A461E6B88500077A81F /* Settings.bundle */,
 				C6ED0A151E6B71860077A81F /* TipView */,
 				C6ED0A2A1E6B71860077A81F /* TipViewTests */,
 				C6ED0A351E6B71860077A81F /* TipViewUITests */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6ED0A471E6B88500077A81F /* Settings.bundle in Resources */,
 				C6ED0A211E6B71860077A81F /* LaunchScreen.storyboard in Resources */,
 				C6ED0A1E1E6B71860077A81F /* Assets.xcassets in Resources */,
 				C6ED0A1C1E6B71860077A81F /* Main.storyboard in Resources */,
